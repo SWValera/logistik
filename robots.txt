@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://esil-logistic-html.sw-valera.chatgpt.site/sitemap.xml

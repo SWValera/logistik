@@ -1,0 +1,2 @@
+document.querySelector('.menu-button')?.addEventListener('click',()=>document.body.classList.toggle('menu-open'));
+document.querySelectorAll('a[href^="https://wa.me"],a[href^="https://t.me"],a[href^="https://max.ru"]').forEach(link=>link.addEventListener('click',()=>{window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'messenger_click',messenger:link.href.includes('wa.me')?'whatsapp':link.href.includes('t.me')?'telegram':'max'});}));
